@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-href {
+    @apply text-sm text-slate-400 hover:text-slate-500 font-semibold
+}
+
+.button-full-rounded-primary {
+    @apply bg-primary w-full py-2 rounded-full hover:bg-primary-variant
+}

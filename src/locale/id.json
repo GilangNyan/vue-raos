@@ -1,7 +1,17 @@
 {
     "login": "Masuk",
+    "register": "Daftar",
+    "forgotPassword": "Lupa Kata Sandi",
     "label": {
         "username": "Nama Pengguna",
-        "password": "Kata Sandi"
+        "password": "Kata Sandi",
+        "remember": "Ingat saya",
+        "forgotPassword": "Lupa kata sandi?",
+        "email": "Email",
+        "submit": "Kirim",
+        "backToLogin": "Kembali ke halaman Login"
+    },
+    "description": {
+        "forgotPassword": "Masukkan alamat email terdaftar Anda dan kami akan mengirimkan tautan untuk mengubah kata sandi Anda."
     }
 }

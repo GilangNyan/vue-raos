@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#FFB300',
+        'primary-variant': '#FFCA28',
         'info': '#00BCD4',
         'error': '#F44336',
         'success': '#4CAF50',
@@ -19,6 +20,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }
 

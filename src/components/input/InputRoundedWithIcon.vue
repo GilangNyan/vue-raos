@@ -4,7 +4,7 @@
         <span class="absolute inset-y-0 left-0 flex items-center pl-3">
           <slot />
         </span>
-        <input :type="type" :name="name" :id="name" class="rounded-full w-full border pl-10 pr-4 py-2 border-slate-300 placeholder-slate-300 focus:outline-none focus:border-info focus:ring-info focus:ring-1" :placeholder="label" :value="modelValue" @input="onInput">
+        <input :type="type" :name="name" :id="name" class="rounded-full w-full border pl-10 pr-4 py-2 border-slate-400 placeholder-slate-400 focus:outline-none focus:border-info focus:ring-info focus:ring-1" :placeholder="label" :value="modelValue" @input="onInput">
       </label>
 </template>
 

@@ -1,7 +1,17 @@
 {
     "login": "Login",
+    "register": "Register",
+    "forgotPassword": "Forgot Password",
     "label": {
         "username": "Username",
-        "password": "Password"
+        "password": "Password",
+        "remember": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "email": "Email",
+        "submit": "Submit",
+        "backToLogin": "Back to Login Page"
+    },
+    "description": {
+        "forgotPassword": "Enter your registered email and we'll send you a link to reset your password."
     }
 }
