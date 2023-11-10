@@ -6,10 +6,12 @@
         "username": "Nama Pengguna",
         "password": "Kata Sandi",
         "remember": "Ingat saya",
+        "confirmPassword": "Konfirmasi Kata Sandi",
         "forgotPassword": "Lupa kata sandi?",
         "email": "Email",
         "submit": "Kirim",
-        "backToLogin": "Kembali ke halaman Login"
+        "backToLogin": "Kembali ke halaman Login",
+        "noAccountRegister": "Belum punya akun? Daftar"
     },
     "description": {
         "forgotPassword": "Masukkan alamat email terdaftar Anda dan kami akan mengirimkan tautan untuk mengubah kata sandi Anda."

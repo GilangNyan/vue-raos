@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col items-center space-y-8">
+  <div class="flex flex-col items-center space-y-4">
     <h2 class="text-xl font-semibold">{{ $t('login') }}</h2>
-    <form action="#" method="post" class="flex flex-col w-full space-y-4" name="login" @submit="login">
+    <form action="#" method="post" class="flex flex-col w-full space-y-2" name="login" @submit="login">
       <InputRoundedWithIcon name="username" :label="$t('label.username')" type="text" v-model="username">
         <UserIcon class="h-6 w-6 text-slate-400" />
       </InputRoundedWithIcon>
@@ -17,10 +17,15 @@
       </div>
     </form>
     <ButtonRoundedFullWidth :label="$t('login')" form="login" />
+    <router-link to="/register" class="text-href flex items-center">
+        <p>{{ $t('label.noAccountRegister') }}</p>
+        <ChevronRightIcon class="w-6 h-6" />
+    </router-link>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ChevronRightIcon } from '@heroicons/vue/20/solid';
 import { LockClosedIcon, UserIcon } from '@heroicons/vue/24/outline';
 import InputRoundedWithIcon from '@/components/input/InputRoundedWithIcon.vue';
 import ButtonRoundedFullWidth from '@/components/input/ButtonRoundedFullWidth.vue';

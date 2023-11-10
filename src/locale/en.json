@@ -7,9 +7,11 @@
         "password": "Password",
         "remember": "Remember me",
         "forgotPassword": "Forgot password?",
+        "confirmPassword": "Confirm Password",
         "email": "Email",
         "submit": "Submit",
-        "backToLogin": "Back to Login Page"
+        "backToLogin": "Back to Login Page",
+        "noAccountRegister": "Didn't have an account? Register"
     },
     "description": {
         "forgotPassword": "Enter your registered email and we'll send you a link to reset your password."

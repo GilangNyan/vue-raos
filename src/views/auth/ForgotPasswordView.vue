@@ -4,7 +4,7 @@
         <p class="text-center text-sm text-slate-400 font-semibold">
             {{ $t('description.forgotPassword') }}
         </p>
-        <form action="#" method="post" class="flex flex-col w-full space-y-4" name="forgot">
+        <form action="#" method="post" class="flex flex-col w-full space-y-2" name="forgot">
             <InputRoundedWithIcon name="email" :label="$t('label.email')" type="email" v-model="email">
                 <EnvelopeIcon class="h-6 w-6 text-slate-400" />
             </InputRoundedWithIcon>
