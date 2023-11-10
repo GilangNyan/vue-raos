@@ -11,11 +11,11 @@ import en from '@/locale/en.json'
 import id from '@/locale/id.json'
 
 const i18n = createI18n({
-    locale: 'id',
-    messages: {
-        en: en,
-        id: id
-    }
+  locale: 'id',
+  messages: {
+    en: en,
+    id: id
+  }
 })
 
 const app = createApp(App)
