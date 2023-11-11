@@ -15,5 +15,8 @@
   },
   "description": {
     "forgotPassword": "Masukkan alamat email terdaftar Anda dan kami akan mengirimkan tautan untuk mengubah kata sandi Anda."
+  },
+  "validation": {
+    "required": "{field} harus diisi"
   }
 }
