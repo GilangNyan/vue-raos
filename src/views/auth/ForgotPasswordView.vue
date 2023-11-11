@@ -4,11 +4,11 @@
     <p class="text-center text-sm text-slate-400 font-semibold">
       {{ $t('description.forgotPassword') }}
     </p>
-    <form action="#" method="post" class="flex flex-col w-full space-y-2" name="forgot">
+    <Form class="flex flex-col w-full space-y-2" id="forgot" @submit="onSubmit" :validation-schema="schema">
       <InputRoundedWithIcon name="email" :label="$t('label.email')" type="email" v-model="email">
         <EnvelopeIcon class="h-6 w-6 text-slate-400" />
       </InputRoundedWithIcon>
-    </form>
+    </Form>
     <ButtonRoundedFullWidth :label="$t('label.submit')" form="forgot" />
     <router-link to="/login" class="text-href flex items-center">
       <ChevronLeftIcon class="w-6 h-6" />
@@ -22,6 +22,17 @@ import { ChevronLeftIcon } from '@heroicons/vue/20/solid'
 import { EnvelopeIcon } from '@heroicons/vue/24/outline'
 import ButtonRoundedFullWidth from '@/components/input/ButtonRoundedFullWidth.vue'
 import InputRoundedWithIcon from '@/components/input/InputRoundedWithIcon.vue'
+import { Form } from 'vee-validate'
+import * as yup from 'yup'
+
+// Validation Schema
+const schema = yup.object({
+  email: yup.string().required().email(),
+})
 
 let email: string = ''
+
+const onSubmit = (val: any) => {
+  console.log(JSON.stringify(val, null, 2))
+}
 </script>
