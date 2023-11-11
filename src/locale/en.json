@@ -3,6 +3,7 @@
   "register": "Register",
   "forgotPassword": "Forgot Password",
   "requestSent": "Request Sent",
+  "resetPassword": "Reset Password",
   "label": {
     "username": "Username",
     "password": "Password",

@@ -3,6 +3,7 @@
   "register": "Daftar",
   "forgotPassword": "Lupa Kata Sandi",
   "requestSent": "Permintaan Dikirim",
+  "resetPassword": "Atur Ulang Kata Sandi",
   "label": {
     "username": "Nama Pengguna",
     "password": "Kata Sandi",
