@@ -1,0 +1,25 @@
+{
+  "login": "Login",
+  "register": "Register",
+  "forgotPassword": "Forgot Password",
+  "requestSent": "Request Sent",
+  "resetPassword": "Reset Password",
+  "label": {
+    "username": "Username",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "confirmPassword": "Confirm Password",
+    "email": "Email",
+    "submit": "Submit",
+    "backToLogin": "Back to Login Page",
+    "noAccountRegister": "Didn't have an account? Register"
+  },
+  "description": {
+    "forgotPassword": "Enter your registered email and we'll send you a link to reset your password.",
+    "passwordResetRequestSent": "Password reset request link has been sent to your registered email address. Click the link and follow the given instructions."
+  },
+  "validation": {
+    "required": "{field} is required"
+  }
+}

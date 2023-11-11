@@ -1,0 +1,25 @@
+{
+  "login": "Masuk",
+  "register": "Daftar",
+  "forgotPassword": "Lupa Kata Sandi",
+  "requestSent": "Permintaan Dikirim",
+  "resetPassword": "Atur Ulang Kata Sandi",
+  "label": {
+    "username": "Nama Pengguna",
+    "password": "Kata Sandi",
+    "remember": "Ingat saya",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "forgotPassword": "Lupa kata sandi?",
+    "email": "Email",
+    "submit": "Kirim",
+    "backToLogin": "Kembali ke halaman Login",
+    "noAccountRegister": "Belum punya akun? Daftar"
+  },
+  "description": {
+    "forgotPassword": "Masukkan alamat email terdaftar Anda dan kami akan mengirimkan tautan untuk mengubah kata sandi Anda.",
+    "passwordResetRequestSent": "Tautan untuk permintaan mengatur ulang kata sandi telah dikirim ke alamat email terdaftar. Klik tautan dan ikuti arahan yang diberikan."
+  },
+  "validation": {
+    "required": "{field} harus diisi"
+  }
+}
