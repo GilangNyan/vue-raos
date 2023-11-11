@@ -2,6 +2,7 @@
   "login": "Masuk",
   "register": "Daftar",
   "forgotPassword": "Lupa Kata Sandi",
+  "requestSent": "Permintaan Dikirim",
   "label": {
     "username": "Nama Pengguna",
     "password": "Kata Sandi",
@@ -14,7 +15,8 @@
     "noAccountRegister": "Belum punya akun? Daftar"
   },
   "description": {
-    "forgotPassword": "Masukkan alamat email terdaftar Anda dan kami akan mengirimkan tautan untuk mengubah kata sandi Anda."
+    "forgotPassword": "Masukkan alamat email terdaftar Anda dan kami akan mengirimkan tautan untuk mengubah kata sandi Anda.",
+    "passwordResetRequestSent": "Tautan untuk permintaan mengatur ulang kata sandi telah dikirim ke alamat email terdaftar. Klik tautan dan ikuti arahan yang diberikan."
   },
   "validation": {
     "required": "{field} harus diisi"

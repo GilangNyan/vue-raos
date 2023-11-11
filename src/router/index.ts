@@ -42,6 +42,15 @@ const router = createRouter({
         requiresAuth: false,
         layout: 'AuthLayout'
       }
+    },
+    {
+      path: '/password-reset-request-sent',
+      name: 'passwordResetRequestSent',
+      component: () => import('@/views/auth/PasswordResetRequestSentView.vue'),
+      meta: {
+        requiresAuth: false,
+        layout: 'AuthLayout'
+      }
     }
   ]
 })

@@ -24,6 +24,7 @@ import ButtonRoundedFullWidth from '@/components/input/ButtonRoundedFullWidth.vu
 import InputRoundedWithIcon from '@/components/input/InputRoundedWithIcon.vue'
 import { Form } from 'vee-validate'
 import * as yup from 'yup'
+import router from '@/router'
 
 // Validation Schema
 const schema = yup.object({
@@ -34,5 +35,6 @@ let email: string = ''
 
 const onSubmit = (val: any) => {
   console.log(JSON.stringify(val, null, 2))
+  router.push('/password-reset-request-sent')
 }
 </script>
